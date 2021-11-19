@@ -1,3 +1,4 @@
 class Building < ApplicationRecord
-  belongs_to :office
+
+    has_many :offices
 end
